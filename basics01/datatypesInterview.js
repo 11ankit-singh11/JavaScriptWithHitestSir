@@ -20,5 +20,9 @@ console.log(typeof null)
 console.log(typeof myfunc)
 console.log(typeof myobj)
 console.log(typeof heroes)
+01
+// const id = Symbol('124')
+// const anotherid = Symbol('124')
+// console.log(id===anotherid)
 
 

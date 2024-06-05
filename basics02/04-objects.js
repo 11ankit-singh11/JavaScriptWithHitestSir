@@ -19,3 +19,13 @@ console.log(obj5);
 
 console.log(Object.keys(obj5));
 console.log(Object.entries(obj5))
+
+// object destructuring 
+
+const course = {
+    coursename : "js in Hindi ",
+    fees : "free"
+}
+
+const {coursename} = course
+console.log(coursename);

@@ -62,13 +62,33 @@ const coding = ["jav","py"]
 // }
 // coding.forEach(printme)
 
-coding.forEach((item,index,arr)=>{
-    console.log(item,index,arr);
-})
+// coding.forEach((item,index,arr)=>{
+//     console.log(item,index,arr);
+// })
 
-const mycoding = [
-    {name:"ankit",age:22},{name:"rahul",age:33}
-]
-mycoding.forEach(function(val){
-    console.log(val.name);
-})
+// const mycoding = [
+//     {name:"ankit",age:22},{name:"rahul",age:33}
+// ]
+// mycoding.forEach(function(val){
+//     console.log(val.name);
+//})
+
+// this foreach does not return anything so we use filter 
+
+// const mynum = [3,2,5,6,67,7,3]
+
+// const arr1 = mynum.filter((num) => {
+//     return num>5
+// } )
+// console.log(arr1);
+
+
+// map 
+
+const newnums = [3,3,2,5,5,6,3,6,7,3,1,9]
+const ne = newnums.map((num)=>(num+10)) // or (num)=> { return num+10}
+
+console.log(ne);
+
+
+

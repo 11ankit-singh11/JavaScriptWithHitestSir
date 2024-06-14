@@ -44,3 +44,31 @@ for (const key in arr) {
 }
 
 // forin loop on map will give nothing no error and no output because it is noniterable  by it .
+
+// learning foreach useful when we are given array of objects 
+
+const coding = ["jav","py"]
+// coding.forEach(function (val){
+//     console.log(val);
+// })
+// // or 
+
+// coding.forEach((item)=>{
+//     console.log(item);
+// })
+
+// function printme(item){
+//     console.log(item);
+// }
+// coding.forEach(printme)
+
+coding.forEach((item,index,arr)=>{
+    console.log(item,index,arr);
+})
+
+const mycoding = [
+    {name:"ankit",age:22},{name:"rahul",age:33}
+]
+mycoding.forEach(function(val){
+    console.log(val.name);
+})
